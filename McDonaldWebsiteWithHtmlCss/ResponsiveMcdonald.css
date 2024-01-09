@@ -1,0 +1,1737 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+header{
+   
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.justify img{
+    width: 60px;
+    height: auto;
+}
+
+.justify{
+ 
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 20px;
+}
+
+.justify img{
+    margin-right: 10px;
+}
+
+.eatLearnLove a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    transition: 0.5s ease-out;
+}
+
+.eatLearnLove i{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.eatLearnLove{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s ease-out;
+    position: relative;
+}
+
+.content{
+   
+    display: flex;
+    text-align: center;
+    align-items: center; 
+    gap: 0.5rem;
+}
+
+.content a i{
+    font-size: 30px;
+    color: #85703a;
+    text-decoration: none;
+    transition: 0.5s ease-out;
+}
+
+.content .red-anchor a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.content .red-anchor a i{
+    font-size: 15px;
+    color: white;
+    margin-right: 4px;
+}
+
+.content img{
+    width: 55px;
+    height: auto;
+}
+
+.red-anchor{
+    width: 100px;
+    height: 27px;
+    background-color: red;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 7px;
+    transition: 0.3s ease-out;
+}
+
+.eatLearnLove a:hover{
+    color: #FEBB15;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.eatLearnLove a i{
+    transition: 0.5s ease-out;
+}
+
+.eatLearnLove a i:hover{
+    transform: rotate(180deg);
+}
+
+
+.eatLearnLove::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+
+.eatLearnLove:hover::after{
+    width: 100%;
+}
+
+.content a i:hover{
+    color: #FEBB15;
+    transition: 0.5s;
+}
+
+
+.red-anchor:hover{
+    background-color: #85703a;
+    transition: 0.3s;
+}
+
+.nav-line{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 2px;
+    opacity: 0.3;
+    background-color: #E8E8E8;
+}
+
+
+/* container  */
+
+.container{
+    max-width: 60%;
+    margin: auto;
+    
+    margin-top: 30px;
+}
+
+.first-box{
+    display: flex;
+    max-width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+}
+
+.first-column{
+    max-width: 35%;
+    
+    padding: 20px 20px 15px 15px;
+    font-family: "Speedee-Bold",sans-serif;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.font-color{
+    color: #FEBB15;
+}
+
+.first-column p{
+    font-size: 13px;
+    margin-top: 12px;
+    line-height: 1.5;
+}
+
+.button{
+    margin-top: 20px;
+    background-color: #FEBB15;
+    color: black;
+    max-width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+   font-size: 13px;
+   margin-bottom: 20px;
+   transition: 0.3s;
+   padding: 10px;
+}
+
+.button:hover{
+    background-color: #85703a;
+    cursor: pointer;
+}
+
+.second-column img{
+    width: 100%;
+   
+   height: auto;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+
+.second-column{
+    width: 65%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mcdelivery{
+   
+    display: flex;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.first-mcdelivery{
+   
+    width: 50%;
+    padding: 40px 30px 25px 0px;
+    align-items: center;
+}
+
+.first-mcdelivery p{
+    font-size: 13px;
+    margin-top: 12px;
+    line-height: 1.5;
+}
+
+.second-mcdelivery img{
+    width: 100%;
+   
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+
+.second-mcdelivery{
+    width: 50%;
+    
+}
+
+/* The mcdonalds app  */
+
+.mcdonald-app{
+    
+    display: flex;
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+.first-mcdonaldApp{
+  width: 50%;
+}
+
+.first-mcdonaldApp img{
+    max-width: 95%;
+   
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* three card  */
+
+.three-card{
+    
+    margin-top: 40px;
+    display: flex;
+    gap: 1.4rem;
+   text-align: left;
+  width: 100%;
+  
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 31.65%;
+    border-radius: 10px;
+  }
+  
+  
+  .card-container {
+    padding: 2px 16px;
+    max-width: 100%;
+  }
+
+  .card-container p{
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .card-container h4{
+    margin-top: 10px;
+  }
+
+  .card img{
+    max-width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: auto;
+  }
+
+  /* two card  */
+
+  .two-card{
+  
+    margin-top: 40px;
+    display: flex;
+    gap: 1.4rem;
+   text-align: left;
+  max-width: 100%;
+  gap: 1rem;
+  
+}
+
+.card-flex {
+    display: flex;
+    border-radius: 10px;
+    max-width: 49%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-flex img{
+    max-width: 50%;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-containers h2{
+   padding-top: 20px;
+   margin-bottom: 20px;
+
+}
+
+.card-containers p{
+    font-size: 13px;
+    
+}
+
+.card-containers{
+    padding: 0px 20px 10px 10px;
+    max-width: 50%;
+   
+
+}
+
+.card-containers button{
+    margin-top: 100px;
+}
+
+/* border line  */
+
+.border-line{
+    border-bottom: 0.5px dashed black;
+    max-width: 100%;
+    margin-top: 70px;
+}
+
+/* about us  */
+
+.about-us{
+    
+    max-width: 100%;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.contact-us{
+    width: 100%;
+    max-width: 200px;
+    padding-right: 10px;
+    margin-top: 50px;
+}
+
+.contact-us a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+   margin-bottom: 6px;
+   display: block;
+   
+}
+
+.contact-us a:hover{
+    color: #FEBB15;
+}
+
+.contact-us h5{
+    margin-bottom: 13px;
+}
+
+.social-media{
+    display: flex;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    
+}
+
+.app-store{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.7rem;
+    width: 40%;}
+    
+
+.icon i{
+    color: black;
+    margin-right: 30px;
+    font-size: 15px;
+    
+    width: 30px;
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
+}
+
+.app-store img{
+    width: 100%;
+    margin-right: 10px;
+    
+    height: auto;
+    display: inline-block;
+}
+
+.copyright{
+    font-size: 9px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.web-policy{
+    display: flex;
+    justify-content: center;
+}
+
+.policy a{
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+    margin-right: 3px;
+}
+
+.policy a:hover{
+    color: #FEBB15;
+}
+
+.privacy a{
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+    margin-left: 3px;
+}
+
+.privacy a:hover{
+    color: #FEBB15;
+}
+
+.web-policy p{
+    font-size: 10px;
+    
+    padding-top: 5px;
+}
+
+
+
+
+/* for responsive */
+
+@media only screen and (max-width: 1280px) {
+    header{
+       width: 90%;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    
+
+    .mcdelivery h2{
+        font-size: 20px;
+       }
+    
+       .mcdelivery p {
+        font-size: 13px;
+       }
+    
+       .first-mcdelivery{
+        padding-bottom: 10px;
+        margin-top: -40px;
+       }
+
+       .card-containers .button{
+        margin-top: 20px;
+       }
+
+       .second-column img{
+        height: 300px;
+       }
+
+       /* copy right  */
+
+.copyright{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.copyright p{
+    font-size: 10px;
+}
+
+/* web policy  */
+
+.web-policy{
+    margin-bottom: 50px;
+}
+
+.policy a{
+    font-size: 10px;
+}
+
+.web-policy p{
+    font-size: 10px;
+}
+
+.privacy a{
+    font-size: 10px;
+} }
+
+@media only screen and (max-width: 1024px){
+    header{
+       width: 90%;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    
+
+    .mcdelivery h2{
+        font-size: 20px;
+       }
+    
+       .mcdelivery p {
+        font-size: 13px;
+       }
+    
+       .first-mcdelivery{
+        padding-bottom: 10px;
+        margin-top: -40px;
+       }
+
+       .card-containers .button{
+        margin-top: 20px;
+       }
+
+       .second-column img{
+        height: 300px;
+       }
+
+       /* copy right  */
+
+.copyright{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.copyright p{
+    font-size: 10px;
+}
+
+/* web policy  */
+
+.web-policy{
+    margin-bottom: 50px;
+}
+
+.policy a{
+    font-size: 10px;
+}
+
+.web-policy p{
+    font-size: 10px;
+}
+
+.privacy a{
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 900px){
+    .container{
+        max-width: 90%;
+    }
+
+    .eatLearnLove{
+        display: none;
+    }
+
+    .mcdelivery h2{
+        font-size: 20px;
+       }
+    
+       .mcdelivery p {
+        font-size: 13px;
+       }
+    
+       .first-mcdelivery{
+        padding-bottom: 10px;
+        margin-top: -40px;
+       }
+
+       .card-containers .button{
+        margin-top: 20px;
+       }
+
+       .second-column img{
+        height: 300px;
+       }
+
+       /* copy right  */
+
+.copyright{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.copyright p{
+    font-size: 10px;
+}
+
+/* web policy  */
+
+.web-policy{
+    margin-bottom: 50px;
+}
+
+.policy a{
+    font-size: 10px;
+}
+
+.web-policy p{
+    font-size: 10px;
+}
+
+.privacy a{
+    font-size: 10px;
+}
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+   .container{
+    max-width: 90%;
+   }
+   .eatLearnLove{
+    display: none;
+   }
+
+   .first-column h2{
+    font-size: 20px;
+   }
+
+   .first-column p{
+    font-size: 10.1px;
+   }
+
+   .mcdelivery h2{
+    font-size: 20px;
+   }
+
+   .mcdelivery p {
+    font-size: 10.1px;
+   }
+
+   .first-mcdelivery{
+    padding-bottom: 10px;
+    margin-top: -40px;
+   }
+
+   .card-containers .button{
+    margin-top: 20px;
+   }
+}
+
+@media only screen and (max-width: 540px){
+
+    header{
+        max-width: 100%;
+        margin: auto;
+    padding-right: 20px;
+
+    }
+
+
+    .justify img{
+        width: 40px;
+    }
+     
+     .content{
+        gap: 0px;
+     }
+
+    
+
+    .justify{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    header{
+        flex-wrap: nowrap;
+        margin-left: 40px;
+    }
+
+    .fa-square-facebook{
+        display: none;
+    }
+
+    .fa-instagram{
+        display: none;
+    }
+
+    .fa-magnifying-glass{
+        margin-left: 10px;
+    }
+
+    /* container  */
+
+    .first-box {
+        flex-direction: column-reverse;
+    }
+    
+    .first-column{
+        max-width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .first-column p{
+        font-size: 13px;
+    }
+
+    .second-column{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .second-column img{
+        width: 485px;
+        margin: auto;
+       border-top-right-radius: 10px;
+       border-top-left-radius: 10px;
+       border-bottom-right-radius: 0px;
+    }
+
+    /* mcdelivery  */
+
+    .mcdelivery{
+        flex-direction: column-reverse;
+        
+        max-width: 100%;
+    }
+
+    .second-mcdelivery img{
+        width: 485px;
+       margin:  0 auto;
+    }
+
+    .first-mcdelivery {
+        width: 430px;
+       margin: 0 auto;
+        text-align: center;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+  .mcdonald-app{
+    flex-direction: column;
+        
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .first-mcdonaldApp {
+   width: 100%;
+    margin: 0 auto;
+  }
+
+  .first-mcdonaldApp img{
+    width: 485px;
+   margin-left: 15px;
+  }
+
+  /* three-card  */
+  .three-card{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  /* two card  */
+
+  .two-card{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .card-flex{
+    
+    max-width: 100%;
+    
+  }
+  
+
+  /* about us  */
+   
+  .about-us{
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .about-us .contact-us a{
+    display: none;
+  }
+
+  .contact-us{
+    margin-top: -1px;
+  }
+
+  /* social media  */
+
+  .social-media{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-left: 100px;
+  }
+
+  .app-store img{
+    width: 100px;
+}
+
+.icon{
+    margin-top: 50px;
+    margin-right: 115px;
+}
+
+/* copy right  */
+
+.copyright{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.copyright p{
+    font-size: 10px;
+}
+
+/* web policy  */
+
+.web-policy{
+    margin-bottom: 50px;
+}
+
+.policy a{
+    font-size: 10px;
+}
+
+.web-policy p{
+    font-size: 10px;
+}
+
+.privacy a{
+    font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 514px){
+    .second-column img{
+     width: 100%;
+     height: 200px;
+    }
+ 
+    .second-mcdelivery img{
+     width: 460px;
+    }
+ }
+
+
+
+@media only screen and (max-width: 480px) {
+    .justify img{
+        width: 40px;
+    }
+     
+     .content{
+        gap: 0px;
+     }
+
+    
+
+    .justify{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    header{
+        flex-wrap: nowrap;
+        margin-left: 40px;
+    }
+
+    .fa-square-facebook{
+        display: none;
+    }
+
+    .fa-instagram{
+        display: none;
+    }
+
+    .fa-magnifying-glass{
+        margin-left: 10px;
+    }
+
+    /* container  */
+
+    .first-box {
+        flex-direction: column-reverse;
+    }
+    
+    .first-column{
+        max-width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .first-column p{
+        font-size: 13px;
+    }
+
+    .second-column{
+        max-width: 90%;
+    }
+
+    .second-column img{
+        width: 430px;
+       border-top-right-radius: 10px;
+       border-top-left-radius: 10px;
+    }
+
+    /* mcdelivery  */
+
+    .mcdelivery{
+        flex-direction: column-reverse;
+        
+        max-width: 100%;
+    }
+
+    .second-mcdelivery img{
+        width: 430px;
+        margin-right: 20px;
+    }
+
+    .first-mcdelivery {
+        width: 430px;
+        margin-right: 20px;
+        text-align: center;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+  .mcdonald-app{
+    flex-direction: column;
+        
+    max-width: 100%;
+  }
+
+  .first-mcdonaldApp {
+    width: 450px;
+    margin-right: 20px;
+  }
+
+  /* three-card  */
+  .three-card{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  /* two card  */
+
+  .two-card{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .card-flex{
+    
+    max-width: 100%;
+    
+  }
+  
+
+  /* about us  */
+   
+  .about-us{
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .about-us .contact-us a{
+    display: none;
+  }
+
+  .contact-us{
+    margin-top: -1px;
+  }
+
+  /* social media  */
+
+  .social-media{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-left: 100px;
+  }
+
+  .app-store img{
+    width: 100px;
+}
+
+.icon{
+    margin-top: 50px;
+    margin-right: 115px;
+}
+
+/* copy right  */
+
+.copyright{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.copyright p{
+    font-size: 10px;
+}
+
+/* web policy  */
+
+.web-policy{
+    margin-bottom: 50px;
+}
+
+.policy a{
+    font-size: 10px;
+}
+
+.web-policy p{
+    font-size: 10px;
+}
+
+.privacy a{
+    font-size: 10px;
+}
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 414px){
+    .justify img{
+        width: 40px;
+    }
+     
+     .content{
+        gap: 0px;
+     }
+
+    
+
+    .justify{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    header{
+        flex-wrap: nowrap;
+        margin-left: 40px;
+    }
+
+    .fa-square-facebook{
+        display: none;
+    }
+
+    .fa-instagram{
+        display: none;
+    }
+
+    .fa-magnifying-glass{
+        margin-left: 10px;
+    }
+
+    /* container  */
+
+    .first-box {
+        flex-direction: column-reverse;
+    }
+    
+    .first-column{
+        max-width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .first-column p{
+        font-size: 13px;
+    }
+
+    .second-column{
+        max-width: 100%;
+    }
+
+    .second-column img{
+        width: 100%;
+       border-top-right-radius: 10px;
+       border-top-left-radius: 10px;
+    }
+
+    /* mcdelivery  */
+
+    .mcdelivery{
+        flex-direction: column-reverse;
+        
+        max-width: 100%;
+    }
+
+    .second-mcdelivery{
+        width: 100%;
+    }
+
+    .second-mcdelivery img{
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .first-mcdelivery {
+        width: 100%;
+        margin-right: 20px;
+        text-align: center;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+  .mcdonald-app{
+    flex-direction: column;
+        
+    max-width: 100%;
+  }
+
+  .first-mcdonaldApp {
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  /* three-card  */
+  .three-card{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  /* two card  */
+
+  .two-card{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .card-flex{
+    
+    max-width: 100%;
+    
+  }
+  
+
+  /* about us  */
+   
+  .about-us{
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .about-us .contact-us a{
+    display: none;
+  }
+
+  .contact-us{
+    margin-top: -1px;
+  }
+
+  /* social media  */
+
+  .social-media{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-left: 100px;
+  }
+
+.app-store{
+    width: 100%;
+    margin-right: 100px;
+    padding-right: 20px;
+}
+
+  .app-store img{
+    width: 100px;
+}
+
+.icon{
+
+    width: 100%;
+   
+padding-right: 30px;}
+
+/* copy right  */
+
+.copyright{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.copyright p{
+    font-size: 10px;
+}
+
+/* web policy  */
+
+.web-policy{
+    margin-bottom: 50px;
+}
+
+.policy a{
+    font-size: 10px;
+}
+
+.web-policy p{
+    font-size: 10px;
+}
+
+.privacy a{
+    font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 393px){
+    header{
+        display: flex;
+        justify-content: start;
+     }
+     
+     .content{
+        gap: 0px;
+     }
+
+     .content :nth-child(3){
+        display: none;
+     }
+
+     .second-column img{
+        width: 100%;
+        height: 200px;
+       border-top-right-radius: 10px;
+       border-top-left-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    header{
+        display: flex;
+        justify-content: start;
+     }
+
+     .justify img{
+        width: 40px;
+        display: inline;
+        margin-right: 5px;
+    }
+     
+     .content{
+        gap: 0px;
+     }
+
+     .content :nth-child(3){
+        display: none;
+     }
+
+    
+
+    .justify{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    header{
+        flex-wrap: nowrap;
+        margin-left: 40px;
+    }
+
+    .fa-square-facebook{
+        display: none;
+    }
+
+    .fa-instagram{
+        display: none;
+    }
+
+    .fa-magnifying-glass{
+        margin-left: 10px;
+    }
+    
+
+    
+
+    
+    /* container  */
+
+    .first-box {
+        flex-direction: column-reverse;
+    }
+    
+    .first-column{
+        max-width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .first-column p{
+        font-size: 13px;
+    }
+
+    .second-column{
+        max-width: 100%;
+    }
+
+    .second-column img{
+        width: 100%;
+        height: 200px;
+       border-top-right-radius: 10px;
+       border-top-left-radius: 10px;
+    }
+
+    .content .red-anchor a :nth{
+        display: none;
+    }
+
+    /* mcdelivery  */
+
+    .mcdelivery{
+        flex-direction: column-reverse;
+        
+        max-width: 100%;
+    }
+
+    .second-mcdelivery{
+        width: 100%;
+    }
+
+    .second-mcdelivery img{
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .first-mcdelivery {
+        width: 100%;
+        margin-right: 20px;
+        text-align: center;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+  .mcdonald-app{
+    flex-direction: column;
+        
+    max-width: 100%;
+  }
+
+  .first-mcdonaldApp {
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  /* three-card  */
+  .three-card{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  /* two card  */
+
+  .two-card{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .card-flex{
+    
+    max-width: 100%;
+    
+  }
+  
+
+  /* about us  */
+   
+  .about-us{
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .about-us .contact-us a{
+    display: none;
+  }
+
+  .contact-us{
+    margin-top: -1px;
+  }
+
+  /* social media  */
+
+  .social-media{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-left: 100px;
+  }
+
+.app-store{
+    width: 100%;
+    margin-right: 100px;
+    padding-right: 20px;
+}
+
+  .app-store img{
+    width: 100px;
+}
+
+.icon{
+
+    width: 100%;
+   
+padding-right: 30px;}
+
+/* copy right  */
+
+.copyright{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.copyright p{
+    font-size: 10px;
+}
+
+/* web policy  */
+
+.web-policy{
+    margin-bottom: 50px;
+}
+
+.policy a{
+    font-size: 10px;
+}
+
+.web-policy p{
+    font-size: 10px;
+}
+
+.privacy a{
+    font-size: 10px;
+}
+}
+
+
+
+@media only screen and (max-width: 280px){
+    header{
+        display: flex;
+        justify-content: start;
+     }
+
+     .justify img{
+        width: 40px;
+        display: inline;
+        margin-right: 5px;
+    }
+     
+     .content{
+        gap: 0px;
+     }
+
+     .content :nth-child(3){
+        display: none;
+     }
+
+    
+
+    .justify{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    header{
+        flex-wrap: nowrap;
+        margin-left: 40px;
+    }
+
+    .fa-square-facebook{
+        display: none;
+    }
+
+    .fa-instagram{
+        display: none;
+    }
+
+    .fa-magnifying-glass{
+        margin-left: 10px;
+    }
+    
+
+    
+
+    
+    /* container  */
+
+    .first-box {
+        flex-direction: column-reverse;
+    }
+    
+    .first-column{
+        max-width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .first-column p{
+        font-size: 13px;
+    }
+
+    .second-column{
+        max-width: 100%;
+    }
+
+    .second-column img{
+        width: 100%;
+        height: 200px;
+       border-top-right-radius: 10px;
+       border-top-left-radius: 10px;
+    }
+
+    .content .red-anchor a :nth{
+        display: none;
+    }
+
+    /* mcdelivery  */
+
+    .mcdelivery{
+        flex-direction: column-reverse;
+        
+        max-width: 100%;
+    }
+
+    .second-mcdelivery{
+        width: 100%;
+    }
+
+    .second-mcdelivery img{
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .first-mcdelivery {
+        width: 100%;
+        margin-right: 20px;
+        text-align: center;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+  .mcdonald-app{
+    flex-direction: column;
+        
+    max-width: 100%;
+  }
+
+  .first-mcdonaldApp {
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  /* three-card  */
+  .three-card{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  /* two card  */
+
+  .two-card{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .card-flex{
+    
+    max-width: 100%;
+    height: 240px;
+    
+  }
+
+  .card-containers h2{
+    font-size: 20px;
+  }
+
+  .card-containers button{
+    font-size: 10px;
+  }
+  
+
+  /* about us  */
+   
+  .about-us{
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .about-us .contact-us a{
+    display: none;
+  }
+
+  .contact-us{
+    margin-top: -1px;
+  }
+
+  /* social media  */
+
+  .social-media{
+    max-width: 100%;
+    width: 100%;
+    margin-left: 70px;
+  }
+/* copy right  */
+
+.copyright{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.copyright p{
+    font-size: 10px;
+}
+
+/* web policy  */
+
+.web-policy{
+    margin-bottom: 50px;
+}
+
+.policy a{
+    font-size: 10px;
+}
+
+.web-policy p{
+    font-size: 10px;
+}
+
+.privacy a{
+    font-size: 10px;
+}
+}
+
